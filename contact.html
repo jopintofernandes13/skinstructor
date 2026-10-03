@@ -1,43 +1,330 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact — Jo Fernandes</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
-</head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<nav>
-  <div class="nav-left">
-    <a href="index.html">Jo Fernandes</a>
-  </div>
-  <div class="nav-right">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="destinations.html">Destinations</a>
-    <a href="packages.html">Packages</a>
-    <a href="testimonials.html">Testimonials</a>
-    <a href="contact.html">Contact</a>
-    <a class="book-now" href="contact.html">Book Now</a>
-  </div>
-</nav>
+  <title>Book a Private Ski Instructor in Niseko | Jose Fernandes</title>
 
-<main class="container">
-  <h2>Contact & Bookings</h2>
-  <div class="card">
-    <form action="https://formspree.io/f/maypkwzz" method="POST">
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-      <label for="date">Preferred Date</label>
-      <input type="date" id="date" name="date">
-      <label for="message">Message / Details</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-      <input type="hidden" name="_replyto" value="jmpintofernandes@gmail.com">
-      <input type="hidden" name="_subject" value="New booking request from website">
-      <button type="submit" class="btn">Send Booking Request</button>
-    </form>
-    <p>Or reach me directly:<br/><strong>Email:</strong> jmpintofernandes@gmail.com<br/><strong>WhatsApp:</strong> +351-966601017</p>
-  </div>
-</main>
-<footer><small>&copy; 2025 Jo Fernandes — Private Ski Instructor</small></footer>
-</body></html>
+  <meta name="description" content="Plan your private ski lesson, powder coaching or ski guiding experience in Niseko and Hokkaido with fully certified instructor and guide Jose Fernandes.">
+
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <div class="nav-container">
+
+      <a href="index.html" class="logo">
+        JOSE FERNANDES
+        <span>PRIVATE SKI INSTRUCTOR & GUIDE</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="packages.html">Ski Lessons & Guiding</a>
+        <a href="destinations.html">Niseko & Hokkaido</a>
+        <a href="about.html">About Jose</a>
+        <a href="testimonials.html">Reviews</a>
+        <a href="contact.html" class="nav-cta active">Book</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="contact-hero">
+
+      <div class="contact-hero-content">
+
+        <p class="eyebrow">NISEKO • HOKKAIDO • JAPAN</p>
+
+        <h1>Plan your<br>ski day.</h1>
+
+        <p>
+          Tell me a little about yourself, your group and what you'd like
+          to experience. I'll help you work out the right plan for your
+          time in Niseko or Hokkaido.
+        </p>
+
+      </div>
+
+      <div class="contact-hero-image">
+        <img
+          src="images/jose-niseko-ski-guide.jpg"
+          alt="Jose Fernandes, private ski instructor and guide in Niseko, Japan">
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT OPTIONS -->
+    <section class="contact-options">
+
+      <div class="contact-options-inner">
+
+        <div class="contact-intro">
+
+          <p class="eyebrow">GET IN TOUCH</p>
+
+          <h2>Let's talk skiing.</h2>
+
+          <p>
+            Every booking is different. Whether you're looking for private
+            instruction, powder coaching, off-piste guiding or a day
+            exploring somewhere new, send me a message and we'll work
+            out what's right for you.
+          </p>
+
+        </div>
+
+
+        <div class="contact-methods">
+
+          <a
+            href="mailto:jmpintofernandes@gmail.com"
+            class="contact-method">
+
+            <span class="contact-method-label">EMAIL</span>
+
+            <strong>jmpintofernandes@gmail.com</strong>
+
+            <span>Send an enquiry →</span>
+
+          </a>
+
+
+          <a
+            href="https://wa.me/351966601017"
+            target="_blank"
+            rel="noopener"
+            class="contact-method">
+
+            <span class="contact-method-label">WHATSAPP</span>
+
+            <strong>+351 966 601 017</strong>
+
+            <span>Message me directly →</span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ENQUIRY FORM -->
+    <section class="booking-section">
+
+      <div class="booking-inner">
+
+        <div class="booking-copy">
+
+          <p class="eyebrow">ENQUIRY</p>
+
+          <h2>Tell me about<br>your ski trip.</h2>
+
+          <p>
+            The more you tell me, the easier it is for me to understand
+            what you're looking for and suggest the right experience.
+          </p>
+
+          <p>
+            Don't worry if you're not sure exactly what you want to book.
+            We can work that out together.
+          </p>
+
+        </div>
+
+
+        <form
+          class="booking-form"
+          action="mailto:jmpintofernandes@gmail.com"
+          method="post"
+          enctype="text/plain">
+
+          <div class="form-row">
+
+            <div class="form-field">
+              <label for="name">Name *</label>
+              <input
+                type="text"
+                id="name"
+                name="Name"
+                required>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                id="email"
+                name="Email"
+                required>
+            </div>
+
+          </div>
+
+
+          <div class="form-row">
+
+            <div class="form-field">
+              <label for="dates">Dates</label>
+              <input
+                type="text"
+                id="dates"
+                name="Dates"
+                placeholder="e.g. January 15–18">
+            </div>
+
+            <div class="form-field">
+              <label for="skiers">Number of skiers</label>
+              <select id="skiers" name="Number of skiers">
+
+                <option value="">Select</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6+</option>
+
+              </select>
+            </div>
+
+          </div>
+
+
+          <div class="form-field">
+
+            <label for="level">Skiing level</label>
+
+            <select id="level" name="Skiing level">
+
+              <option value="">Select your level</option>
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Advanced</option>
+              <option>Advanced / Off-piste</option>
+
+            </select>
+
+          </div>
+
+
+          <div class="form-field">
+
+            <label for="experience">What are you looking for?</label>
+
+            <select id="experience" name="Experience">
+
+              <option value="">Select an experience</option>
+              <option>Private ski lessons</option>
+              <option>Powder skiing lessons & coaching</option>
+              <option>Off-piste resort guiding</option>
+              <option>Niseko backcountry guiding</option>
+              <option>Rusutsu guiding</option>
+              <option>Hokkaido ski day</option>
+              <option>Not sure yet</option>
+
+            </select>
+
+          </div>
+
+
+          <div class="form-field">
+
+            <label for="message">Tell me about your trip</label>
+
+            <textarea
+              id="message"
+              name="Message"
+              rows="7"
+              placeholder="Tell me about your group, your skiing experience, what you'd like to ski, where you're staying, or anything else that might be useful."></textarea>
+
+          </div>
+
+
+          <button
+            type="submit"
+            class="button-primary form-submit">
+            Send Enquiry
+          </button>
+
+          <p class="form-note">
+            Your email app will open with your enquiry ready to send.
+          </p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- WHATSAPP CTA -->
+    <section class="contact-whatsapp">
+
+      <div class="contact-whatsapp-inner">
+
+        <p class="eyebrow">PREFER TO MESSAGE?</p>
+
+        <h2>Let's talk on WhatsApp.</h2>
+
+        <p>
+          If you'd rather have a quick conversation before booking,
+          message me directly and tell me what you're looking for.
+        </p>
+
+        <a
+          href="https://wa.me/351966601017"
+          target="_blank"
+          rel="noopener"
+          class="button-primary">
+          Message on WhatsApp
+        </a>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="footer-container">
+
+      <div>
+        <strong>JOSE FERNANDES</strong>
+        <p>Private Ski Instructor & Guide</p>
+        <p>Niseko • Hokkaido • Japan</p>
+      </div>
+
+      <div class="footer-links">
+
+        <a href="index.html">Home</a>
+        <a href="packages.html">Ski Lessons & Guiding</a>
+        <a href="destinations.html">Niseko & Hokkaido</a>
+        <a href="about.html">About Jose</a>
+        <a href="testimonials.html">Reviews</a>
+        <a href="contact.html">Book</a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
