@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jopintofernandes13.github.io/skinstructor/sitemap.xml
