@@ -1,29 +1,30 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://jopintofernandes13.github.io/skinstructor/</loc>
+    <loc>https://josefernandesski.com/</loc>
   </url>
 
   <url>
-    <loc>https://jopintofernandes13.github.io/skinstructor/packages.html</loc>
+    <loc>https://josefernandesski.com/packages.html</loc>
   </url>
 
   <url>
-    <loc>https://jopintofernandes13.github.io/skinstructor/destinations.html</loc>
+    <loc>https://josefernandesski.com/destinations.html</loc>
   </url>
 
   <url>
-    <loc>https://jopintofernandes13.github.io/skinstructor/about.html</loc>
+    <loc>https://josefernandesski.com/about.html</loc>
   </url>
 
   <url>
-    <loc>https://jopintofernandes13.github.io/skinstructor/testimonials.html</loc>
+    <loc>https://josefernandesski.com/testimonials.html</loc>
   </url>
 
   <url>
-    <loc>https://jopintofernandes13.github.io/skinstructor/contact.html</loc>
+    <loc>https://josefernandesski.com/contact.html</loc>
   </url>
 
 </urlset>
+```
